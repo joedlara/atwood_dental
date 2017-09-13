@@ -25,8 +25,8 @@ SECRET_KEY = ')v!xdeclx3b^n$#d1u)rx^&_+)ll5d&kq&*(3aap0)o7*ct!xa'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['atwoodfamilydentist.com']
-ALLOWED_HOSTS += ip_addresses()
+ALLOWED_HOSTS = []
+
 
 # Application definition
 
