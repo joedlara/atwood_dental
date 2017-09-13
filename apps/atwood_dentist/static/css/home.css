@@ -1,0 +1,373 @@
+/*#header{
+  border: dotted 3px black;
+}
+
+#navigation{
+  border: dotted 3px red;
+}
+
+#car{
+  border: dotted 3px black;
+}
+
+#about_us{
+  border: dotted 3px purple;
+}
+
+#our_services{
+  border: dotted 3px grey;
+
+}
+
+#random_info{
+  border: dotted 3px brown;
+}
+
+#par2{
+  border: dotted 3px grey;
+}
+
+#contact_us{
+  border: dotted 3px brown;
+  position: relative;
+}*/
+
+
+
+#our_dentist{
+  /*border: dotted 3px purple;*/
+  height: 100%;
+}
+
+h6{
+  font-family: 'Amaranth', sans-serif-bold;
+}
+#home{
+  /*outline: 3px dotted black;*/
+}
+
+
+#logo{
+/*outline: solid 3px black;*/
+display: inline-block;
+text-align: left;
+margin-left: 5%;
+font-family: 'Amaranth', sans-serif-bold;
+font-weight: bold;
+font-style: italic;
+
+}
+
+.head{
+  /*display: inline-block;*/
+  margin-right: 10%;
+  /*left: 40%;
+text-align: right;
+margin-right: 100px;
+position: relative;*/
+font-family: 'Amaranth', sans-serif-bold;
+}
+
+
+nav.nav-wrapper ul {
+    text-align: center;
+}
+nav.nav-wrapper ul li  {
+    display: inline;
+    float: none;
+}
+nav.nav-wrapper ul li .routes {
+    display: inline-block;
+    font-family: 'Amaranth', sans-serif-bold;
+}
+
+
+
+#about_us .about_mid{
+  text-align: center
+}
+#about_us .about_mid .about{
+  display: inline-table;
+  min-height: 230px;
+  /*outline: 3px dotted black;*/
+  max-width: 490px;
+  font-family: 'Amaranth', sans-serif-bold;
+  margin: 0 20px 0 20px;
+}
+
+#our_office .office_mid{
+  text-align: center;
+}
+
+#our_office .office_mid .office{
+  max-width: 60%;
+  position: relative;
+  
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.serve_word{
+  /*display: none;*/
+}
+
+#our_services .opacity{
+  text-align: center;
+
+}
+
+#our_services .opacity .services_small{
+    margin: 15px;
+    min-height: 50px;
+  
+ 
+  font-family: 'Amaranth', sans-serif-bold; 
+
+   
+}
+
+
+#our_services .opacity .services{
+  display: inline-grid;
+  margin: 15px;
+  
+  /*outline: 3px solid black;*/
+  background-color: #2f6c88;
+  max-width: 340px;
+  font-family: 'Amaranth', sans-serif-bold; 
+  vertical-align: top;
+   
+}
+
+.scroll{
+  overflow: hidden;
+   overflow-x: hidden;
+   height: 200px;
+
+ }
+.scroll:hover{
+  overflow-y: scroll;
+}
+ .call{
+  margin: 0 20px 0 20px;
+ }
+
+#random_info .random_info2{
+  text-align: center;
+
+}
+#random_info .random_info2 .misc{
+  text-align: center;
+  display: inline-block;
+  min-width: 100px;
+  margin: 0 40px 0 40px;
+  /*outline: 3px dotted black;*/
+}
+
+
+
+#our_dentist .centering {
+  text-align: center;
+}
+
+#our_dentist .member {
+  text-align: center;
+  margin: 20px;
+}
+
+#doctor_main {
+  max-width: 650px;
+}
+
+#our_dentist .centering .images {
+  display: inline-block;
+  margin: 0 25px 0 25px;
+  vertical-align: top;
+}
+
+.images{
+  /*outline: 3px dotted black;*/
+  max-width: 325px;
+}
+
+
+
+
+.headings{
+  text-align: center;
+  float: none;
+  font-family: 'Amaranth', sans-serif-bold;
+}
+
+
+.opacity {
+  background-color:  #185c7b;
+  opacity: .8;
+  width: 100%;
+  height: 100%;
+  border: solid 1px white;
+ 
+}
+
+
+.random{
+  font-family: 'Amaranth', sans-serif-bold;
+  text-align: center;
+  float: none;
+}
+
+
+
+.desc{
+ font-family: 'Amaranth', sans-serif-bold;
+  text-align: center;
+  float: none;
+
+}
+
+.inform_img{
+	display: inline;
+}
+
+#icon_last .icons {
+  font-family: 'Amaranth', sans-serif-bold;
+  height: auto;
+    max-width: 30px;
+    
+   margin: 0 15px 0 15px;
+
+     position: relative;
+  
+  left: 36%;
+  transform: translate(-50%);
+   }
+
+#icon_last{
+  display: inline-block;
+   margin-top: 50px;
+
+     position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.back_home {
+  text-align: center;
+  float: none;
+}
+
+
+
+#form_last{
+  /*outline: 3px dotted black;*/
+  max-width: 750px;
+    position: relative;
+  
+  left: 50%;
+  transform: translate(-50%);
+
+   
+}
+
+
+
+
+#footer{
+  height: 100%;
+  border: solid 1px white;
+  padding: 10px;
+}
+
+
+a{
+  font-family: 'Amaranth', sans-serif-bold;
+}
+p{
+  font-family: 'Amaranth', sans-serif-bold;
+}
+.side{
+  font-weight: bold;
+}
+
+
+.cool{
+  /*outline: 3px dotted blue;*/
+  width: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+#contact_us .cool {
+  text-align: center;
+}
+.cool .last{
+  vertical-align: top;
+  display: inline-grid;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: 'Amaranth', sans-serif-bold;
+
+  /*outline: 3px dotted black;*/
+}
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:20.25%;
+    position:relative;
+    height:0;
+    margin-left: 50%;
+  transform: translate(-50%);
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+.itemss {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  display: inline-block;
+  margin: 5px;
+}
+
+.itemss2 {
+  position: relative;
+  min-width: 50px;
+  height: 50px;
+  background-color: gray;
+  display: inline-grid;
+  margin: 5px;
+}
+
+
+#lang_change{
+  
+  float: right;
+  width: 250px;
+  
+}
+#lang_change2{
+
+  width: 100%;
+
+}
+
+
+
+
+
